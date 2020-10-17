@@ -1,0 +1,28 @@
+
+.m-icon-star-off:before {
+  content: "\e717";
+}
+.m-icon-loading {
+  animation: rotating 2s linear infinite;
+}
+.m-icon-loading:before {
+  content: "\e6cf";
+}
+.m-icon--right {
+  margin-left: 5px;
+}
+@-webkit-keyframes rotating {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg); }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg); } }
+
+@keyframes rotating {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg); }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg); } }

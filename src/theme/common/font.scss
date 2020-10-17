@@ -1,0 +1,21 @@
+@font-face{
+    font-family: mui-icons;
+    src:url(./../assets/fonts/element-icons.woff)
+    format("woff"),url(./../assets/fonts/element-icons.ttf) format("truetype");
+    font-weight:400;
+    font-display:auto;
+    font-style:normal;
+}
+[class*=" yo-icon-"], [class^=yo-icon-] {
+    font-family: mui-icons!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: baseline;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

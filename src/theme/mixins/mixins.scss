@@ -1,0 +1,11 @@
+@import "../common/vars";
+
+@mixin res($key, $map: $--breakpoints) {
+  @if map_has_key( $map, $key,) {
+    @media only screen and #{inspect(map_get($map, $key))}  {
+      @content;
+    }
+  } @else {
+    @warn "Undefeined points:`#{$map}`";
+  }
+}
